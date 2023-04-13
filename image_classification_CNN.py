@@ -1,6 +1,6 @@
 from keras_preprocessing.image import load_img, img_to_array
-from tensorflow.keras.applications.vgg16 import decode_predictions, preprocess_input
-from tensorflow.keras.applications.vgg16 import VGG16
+from keras.applications.vgg16 import decode_predictions, preprocess_input
+from keras.applications.vgg16 import VGG16
 
 
 model = VGG16(weights='imagenet')  # Load the pretrained model (VGG16 trained on ImageNet dataset).
